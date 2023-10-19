@@ -16,7 +16,7 @@ const Text = styled.p`
 export default function Dashboard() {
   return (
     <Wrapper>
-      <Text>Mongodb 블로그 데이터베이스 관리자 </Text>
+      <Text>관리자 with NestJS & MongoDB </Text>
     </Wrapper>
   );
 }

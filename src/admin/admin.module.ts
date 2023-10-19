@@ -31,15 +31,15 @@ AdminJS.registerAdapter(AdminJSMongoose);
             component: AdminJS.bundle('./dashboard'),
           },
           branding: {
-            companyName: 'Amamov',
+            companyName: 'Admin',
             logo: false,
           },
         },
         auth: {
           authenticate: async (email, password) =>
-            Promise.resolve({ email: 'amamov@kakao.com' }),
-          cookieName: 'amamov',
-          cookiePassword: '1205',
+            Promise.resolve({ email: 'gogownsduq@gmail.com' }),
+          cookieName: 'admin',
+          cookiePassword: '0000',
         },
       }),
     }),
